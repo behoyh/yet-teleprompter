@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+
+<p>
+    <span style="background-color: rgb(206, 206, 0); font-size: 40px;" *ngFor="let char of highlightedWords.split('')">{{char}}</span>
+    <span style="font-size: 40px;" *ngFor="let char of currentWords.split('')">{{char}}</span>
+</p>
+<button type="button" (click)="onStart($event)">Start</button>
