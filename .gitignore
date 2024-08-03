@@ -1,0 +1,4 @@
+node_modules
+.angular
+assets/
+.DS_STORE
